@@ -1,2 +1,2 @@
-nix shell nixpkgs#php83 --command \
-	php -S localhost:8888 -t www
+nix shell nixpkgs#php81 --command \
+	php -S localhost:8888 -t public
