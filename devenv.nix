@@ -8,7 +8,7 @@ in {
 
   languages.php = {
     enable = true;
-    version = "8.1";
+    version = "7.4";
     fpm.pools.web.settings = {
       "pm" = "dynamic";
       "pm.max_children" = 5;
